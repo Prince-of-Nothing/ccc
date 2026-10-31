@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling==1.27.0", "setuptools==84.0.0"]
+requires = ["hatchling==1.27.0", "setuptools==84.1.0"]
 build-backend = "hatchling.build"
 
 [project]
@@ -34,7 +34,7 @@ dependencies = [
     # tournament environment, even when it is introduced transitively.
     "msgpack>=1.2.1",
     # Keep package builds on a patched setuptools release.
-    "setuptools==84.0.0",
+    "setuptools==84.1.0",
     "psutil>=7.0.0"
 ]
 
